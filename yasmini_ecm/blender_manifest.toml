@@ -1,0 +1,17 @@
+schema_version = "1.0.0"
+
+id = "yasmini_ecm"
+version = "1.0.0"
+name = "Yasmini ECM"
+tagline = "Easy color management: pick a profile, the rest is set up"
+maintainer = "Rodrigo HS <contacto@rodrigohs.com>"
+type = "add-on"
+
+tags = ["Render", "Material", "User Interface"]
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Embed color profiles into rendered PNG, JPEG and TIFF files"
